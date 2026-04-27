@@ -77,7 +77,7 @@ This single-line patch transparently replaces sklearn estimators with Intel-opti
 
 ---
 
-## 🚀 How to Run
+##  How to Run
 
 ### Prerequisites
 ```bash
@@ -90,17 +90,5 @@ python tool_wear_prediction.py
 ```
 
 All 7 plots will be saved in the current directory. Make sure `Tool_wear_dataset.csv` is in the same folder.
-
----
-
-## 📦 requirements.txt
-
-```
-pandas
-numpy
-matplotlib
-seaborn
-scikit-learn
-```
 
 ---
