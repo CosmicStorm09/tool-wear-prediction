@@ -7,20 +7,11 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-green)](LICENSE)
 
 > **Intel Unnati: AI for Mechanical Engineers | Batch 1 | Group 5**  
-> Manipal Institute of Technology, Manipal – 576104
+> Manipal Institute of Technology, Manipal – 576 104
 
 ---
 
-## 👥 Team
-
-| Registration No. | Name | Department |
-|---|---|---|
-| 220909420 | Harsh More | Mechanical Engineering |
-| 230909150 | Samagya Sharma | Mechanical Engineering |
-
----
-
-## 📌 Project Overview
+##  Project Overview
 
 Tool wear is a critical issue in manufacturing — as cutting tools degrade, machined component accuracy drops and the risk of tool failure rises. This project builds and compares **5 supervised machine learning regression models** to predict tool wear (in mm) from real-time machining parameters such as spindle speed, vibration, cutting force, and temperature.
 
@@ -28,7 +19,7 @@ The best model — **Random Forest Regressor** — achieved an **R² of 0.9914**
 
 ---
 
-## 📂 Repository Structure
+##  Repository Structure
 
 ```
 tool-wear-prediction/
@@ -54,7 +45,7 @@ tool-wear-prediction/
 
 ---
 
-## 📊 Dataset
+## Dataset
 
 | Feature | Description | Type |
 |---|---|---|
@@ -72,7 +63,7 @@ tool-wear-prediction/
 
 ---
 
-## 🤖 Models Compared
+## Models Compared
 
 | Model | MAE (mm) | RMSE (mm) | R² Score |
 |---|---|---|---|
@@ -84,7 +75,7 @@ tool-wear-prediction/
 
 ---
 
-## 📈 Key Results
+## Key Results
 
 ### Actual vs Predicted (Random Forest)
 ![Actual vs Predicted](plots/results_actual_vs_predicted.png)
@@ -96,7 +87,7 @@ tool-wear-prediction/
 
 ---
 
-## ⚡ Intel Acceleration (sklearnex)
+## Intel Acceleration (sklearnex)
 
 This project also demonstrates **Intel® Extension for Scikit-learn** for hardware-accelerated training on the MIT Intel server (via MobaXterm):
 
@@ -138,11 +129,3 @@ scikit-learn
 ```
 
 ---
-
-## 🎓 Course Info
-
-**Intel Unnati: AI for Mechanical Engineers**  
-Conducted by: Intel & EdGate Technologies  
-Institution: Manipal Institute of Technology, Manipal  
-Mentor: Raghavendra Kamath C [MAHE-MIT]  
-Submission Date: April 30, 2026
