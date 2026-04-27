@@ -53,7 +53,7 @@ The best model — **Random Forest Regressor** — achieved an **R² of 0.9914**
 ## Key Results
 
 ### Actual vs Predicted (Random Forest)
-![Actual vs Predicted](plots/results_actual_vs_predicted.png)
+![Actual vs Predicted](Plots/results_actual_vs_predicted.png
 
 ### Feature Importance
 ![Feature Importance](plots/results_feature_importance.png)
