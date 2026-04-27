@@ -17,31 +17,6 @@ Tool wear is a critical issue in manufacturing — as cutting tools degrade, mac
 
 The best model — **Random Forest Regressor** — achieved an **R² of 0.9914** and an **RMSE of just 0.00188 mm**.
 
----
-
-##  Repository Structure
-
-```
-tool-wear-prediction/
-│
-├── tool_wear_prediction.py        # Main ML pipeline (EDA → training → evaluation → plots)
-├── Tool_wear_dataset.csv          # Dataset (501 samples, 8 features)
-│
-├── plots/                         # Generated output plots
-│   ├── eda_feature_distributions.png
-│   ├── eda_correlation_heatmap.png
-│   ├── eda_coating_vs_wear.png
-│   ├── results_model_comparison.png
-│   ├── results_actual_vs_predicted.png
-│   ├── results_residual_plot.png
-│   └── results_feature_importance.png
-│
-├── report/
-│   └── Tool_Wear_Prediction_Report_Group5.docx   # Full project report
-│
-├── requirements.txt               # Python dependencies
-└── README.md
-```
 
 ---
 
